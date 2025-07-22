@@ -25,7 +25,7 @@ getgenv().settings = {
   };
   WalljumpConfig={
       MinBoost= "6000"; -- minimum ms that the autofarm boost can get.
-      MaxBoost= "1200000"; -- maximum ms that the autofarm boost can get.
+      MaxBoost= "120000000"; -- maximum ms that the autofarm boost can get.
       ExtraMS= tostring(math.random(5,13)); -- the bonus ms that the autofarm will get. (don't modify a lot on this because its important)
 
       FarmMultiplier= "10"; -- you can increase up to 5, you can try with higher numbers, anyways a higher number gives more chance of ban. (if your level is low then put this number on 1 or 2)
