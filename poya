@@ -10,22 +10,22 @@ game:shutdown(); -- closes the game.
 ]]
 -- this configuration is slow, test on ALT ACCOUNTS configurations so you get your desired ammount.
 getgenv().settings = {
-  FarmCooldown = "0.5"; -- the cooldown of the fireservers. (if the number is too small then you might get banned.)
+  FarmCooldown = "10"; -- the cooldown of the fireservers. (if the number is too small then you might get banned.)
   ExtraAutofarm= false; -- enables one extra autofarm. (THIS SLOWS THE AUTOFARM A LOT)
-  ExtraFarmCombo= "10"; -- The multiplier that increases points. (if your ingame level is low then put this number on 1 or 2)
+  ExtraFarmCombo= "100"; -- The multiplier that increases points. (if your ingame level is low then put this number on 1 or 2)
   autosell = false;
 
   -- configuration for the remote to fire. --
   LandConfig={
       PerfectLanding= "true";
       LandindType= "straight"; -- it can be roll too.
-      Fallspeed= "350"; -- more fallspeed is equal to more points. (if your level is low then put this number less than 200)
-      FarmMultiplier= "20"; -- you can increase up to 5, you can try with higher numbers.  (if your level is low then put this number on 1 or 2)
+      Fallspeed= "35000"; -- more fallspeed is equal to more points. (if your level is low then put this number less than 200)
+      FarmMultiplier= "5"; -- you can increase up to 5, you can try with higher numbers.  (if your level is low then put this number on 1 or 2)
 
   };
   WalljumpConfig={
       MinBoost= "60"; -- minimum ms that the autofarm boost can get.
-      MaxBoost= "1200"; -- maximum ms that the autofarm boost can get.
+      MaxBoost= "120"; -- maximum ms that the autofarm boost can get.
       ExtraMS= tostring(math.random(5,13)); -- the bonus ms that the autofarm will get. (don't modify a lot on this because its important)
 
       FarmMultiplier= "5"; -- you can increase up to 5, you can try with higher numbers, anyways a higher number gives more chance of ban. (if your level is low then put this number on 1 or 2)
