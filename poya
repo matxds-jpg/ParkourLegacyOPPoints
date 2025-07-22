@@ -19,7 +19,7 @@ getgenv().settings = {
   LandConfig={
       PerfectLanding= "true";
       LandindType= "straight"; -- it can be roll too.
-      Fallspeed= "3500000000"; -- more fallspeed is equal to more points. (if your level is low then put this number less than 200)
+      Fallspeed= "350000000"; -- more fallspeed is equal to more points. (if your level is low then put this number less than 200)
       FarmMultiplier= "5"; -- you can increase up to 5, you can try with higher numbers.  (if your level is low then put this number on 1 or 2)
 
   };
